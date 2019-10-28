@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- head section -->
+  <meta charset="utf-8">
+
+  <title>Twitch Dictionary</title>
+
+  <link href="index.css" rel="stylesheet" />
+  <script src="twitchChats.js"></script>
+  <script>
+    function getWord(word){
+      var result = [];
+      var thisWord = word;
+
+      twitchChats.forEach(function(elem, index){
+        if(twitchChats[index].includes(thisWord)) {
+          result.push(twitchChats[index]);
+        }
+        // console.log();
+      });
+
+      console.log(result);
+    }
+  </script>
+
+
+</head>
+<body>
+
+  <!-- body -->
+  <div class='header'>
+    <!-- <h1>Twitch Hearthstone Dictionary</h1> -->
+  </div>
+
+
+  <div class="scrolling-pane one">
+    <div class="dummy-content">A</h1>
+      <h2 onclick="getWord('adapt')">Adapt</h2>
+      <h3>/əˈdapt/ - verb</h3>
+      <P>Choose one of three bonuses.</P>
+
+      <div class="play"><h2 onclick="getWord('advertues')">Adventures</h2></div>
+      <h3>/ədˈvɛntʃə/ - noun</h3>
+      <P>Adventures are a single-player game mode in which the player participates in adventure-themed matches played against computer-controlled opponents. </P>
+
+      <h2 onclick="getWord('aggro')">Aggro</h2>
+      <h3>/ˈaɡrəʊ/ - noun</h3>
+      <P>Short for aggression, decks are usually labeled this if they have low cost creatures and seek to push damage to the opponent as quickly as possible.</P>
+
+      <div class="Ahero"><h2 onclick="getWord('alleria windrunner')">Alleria Windrunner</h2></div>
+      <h3>noun</h3>
+      <P>Character from World or Warcraft. Alternative hero portrait for Hunter.</P>
+
+      <div class="hero"><h2 onclick="getWord('anduin wrynn')">Anduin Wrynn</h2></div>
+      <h3>noun</h3>
+      <P>Character from World or Warcraft. The hero portrait for Priest.</P>
+
+      <h2 onclick="getWord('AOE')">AOE</h2>
+      <h3>noun</h3>
+      <P>AOE stands for Area of Effect, and refers to cards that do damage to your opponents side of the board or both sides of the board.</P>
+    </div>
+
+    <div class="dummy-content">B</h1>
+
+    <h2 onclick="getWord('basic')">Basic</h2>
+    <h3>/ˈbeɪsɪk/ - noun</h3>
+    <P>Basic is one of two core card sets in Hearthstone, the other being the Classic set.</P>
+
+    <h2 onclick="getWord('battlecry')">Battlecry</h2>
+    <h3>/ˈbat(ə)l/ /krʌɪ/ - verb</h3>
+    <P>Does something when you play it from your hand.</P>
+
+    <h2 onclick="getWord('bgh')">BGH</h2>
+    <h3>noun</h3>
+    <P>BGH stands for Big Game Hunter and is referred to frequently because of its ability to destroy a 7 attack or greater minion.</P>
+
+    <h2 onclick="getWord('Blizzard')">Blizzard</h2>
+    <h3>/ˈblɪzəd/ - noun</h3>
+    <P>The company behind Hearthstone.</P>
+
+    <h2 onclick="getWord('bm')">BM</h2>
+    <h3>/bm/ - noun</h3>
+    <P>BM stands for Bad Manners. Some examples of BM are: Spamming emotes, drawing out turns intentionally, delaying a victory by playing all the cards in your hand with clear lethal.</P>
+
+    <h2 onclick="getWord('bomb')">Bomb</h2>
+    <h3>/bɒm/ - noun</h3>
+    <P>A card that has a large effect on the board and can end the game quickly if not dealt with.</P>
+
+    <h2 onclick="getWord('bounce')">Bounce</h2>
+    <h3>/baʊns/ - verb</h3>
+    <P>Cards that return creatures to the owners hand.</P>
+
+    <h2 onclick="getWord('brawl')">Brawl</h2>
+    <h3>/brɔːl/ - noun</h3>
+    <P>Brawl is an epic warrior spell card, from the Classic set. It is an area of effect spell that directly destroys all but one target, with the significant drawback that the target is chosen randomly.</P>
+
+    <h2 onclick="getWord('burn')">Burn</h2>
+    <h3>/bəːn/ - verb</h3>
+    <P>This can have multiple meanings, one is a reference to MTG where direct damage spells are generally referred to as “Burn.” In Hearthstone, Burn typically means a card was burnt from your deck. When you are holding 10 cards and draw another card it is destroyed. The animation of this process appears as a card being burnt.</P>
+    </div>
+
+    <div class="dummy-content">C</h1>
+
+    <h2 onclick="getWord('cancer')">Cancer</h2>
+    <h3>/ˈkansə/ - noun</h3>
+    <P>This is usually in reference to Aggro Decks like Hunter and Zoo Warlock that use low cost minions and direct damage to burn down the opponent. This can also refer to decks that are frequently encountered on the ladder which are a “cancer” on the meta.</P>
+
+    <h2 onclick="getWord('cantrip')">Cantrip</h2>
+    <h3>/ˈkantrɪp/ - noun</h3>
+    <P>Another term from MTG that refers to cards that have a “draw a card” effect along with their main effect. The perfect example of this in Hearthstone is Flare. This term is sometimes used as a catch-all for cards that allow you to draw a card.</P>
+
+    <h2 onclick="getWord('cardback')">Cardback</h2>
+    <h3>/kɑːd/ /bak/ - noun</h3>
+    <P>The back of a card. You can collect them and each month a new one comes out.</P>
+
+    <h2 onclick="getWord('carnivorous cube')">Carnivorous cube</h2>
+    <h3>/kɑːˈnɪv(ə)rəs/ /kjuːb/ - noun</h3>
+    <P>Carnivorous Cube is an epic neutral minion card, from the Kobolds & Catacombs set.</P>
+
+    <div class="play"><h2 onclick="getWord('casual')">Casual</h2></div>
+    <h3>/ˈkaʒjʊəl/ - noun</h3>
+    <P>Play against eachother without ranking.</P>
+
+    <h2 onclick="getWord('charge')">Charge</h2>
+    <h3>/tʃɑːdʒ/ - verb</h3>
+    <P>Can attack immediately.</P>
+
+    <h2 onclick="getWord('classic')">Classic</h2>
+    <h3>/ˈklasɪk/ - verb</h3>
+    <P>Classic (formerly known as Expert) is the largest card set in Hearthstone, with 245 collectible cards. The Classic set serves as one of the two core card sets in Hearthstone, the other being the Basic set. </P>
+
+    <h2 onclick="getWord('combo')">Combo</h2>
+    <h3>/ˈkɒmbəʊ/ - noun</h3>
+    <P>Decks referred to as combo decks seek to initiate powerful interactions with multiple cards that inevitably lead to victory. A common combo finisher in Rogue decks is Leeroy Jenkins and 1x – 2x Cold Blood.</P>
+
+    <h2 onclick="getWord('concrete')">Concrete</h2>
+    <h3>/ˈkɒŋkriːt/ - noun</h3>
+    <P></P>
+
+    <h2 onclick="getWord('contructed')">Constructed</h2>
+    <h3>/kənˈstrʌkt/ - verb</h3>
+    <P>This term refers to the ability to build a deck from cards you own for use in Ranked or Casual play. Arena is what would be referred to as a Limited format, because you are limited to the amount of cards you play from.</P>
+
+    <h2 onclick="getWord('control')">Control</h2>
+    <h3>/kənˈtrəʊl/ - noun</h3>
+    <P>A deck is labeled Control if it seeks to hold the board by using defensive minions (taunts) and utilizing AOE and Spell cards to destroy minions. It then finishes off the opponent with late game minions and threats.</P>
+
+    <h2 onclick="getWord('counter')">Counter</h2>
+    <h3>/ˈkaʊntə/ - noun</h3>
+    <P>A card that is Countered has no effect. Currently the only card that has this keyword is Counterspell.</P>
+
+    <h2 onclick="getWord('cubelock')">CubeLock</h2>
+    <h3>/kjuːb/ /lɒk/ - noun</h3>
+    <P>Cube Warlock (sometimes referred to as "Cubelock") is a combo focused Warlock control deck type.</P>
+
+    <h2 onclick="getWord('cycle')">Cycle</h2>
+    <h3>/ˈsʌɪk(ə)l/ - verb</h3>
+    <P>Using a card to draw and replace itself with another. A good example of this is Shiv, you deal one damage and gain a card to replace it. You can also cycle cards by using something like Cult Master. Sacrifice one of your minions to draw a card which essentially replaces the card you lost. Cycling also allows you to thin your deck and get to cards you might need to win.</P>
+    </div>
+
+    <div class="dummy-content">D</h1>
+    <h2 onclick="getWord('damage')">Damage</h2>
+    <h3>/ˈdamɪdʒ/ - verb</h3>
+    <P>Damage in Hearthstone is a particular infliction of harm upon heroes or minions, measured by a number which is deducted from their Armor (if they have any) or Health. If a character's Health is reduced to zero (or below), it will be killed.</P>
+
+    <h2 onclick="getWord('dark pact')">Dark pact</h2>
+    <h3>/dɑːk/ /pakt/ - noun</h3>
+    <P>Dark Pact is a common warlock spell card, from the Kobolds and Catacombs set.</P>
+
+    <h2 onclick="getWord('deathrattle')">Deathrattle</h2>
+    <h3>/dɛθ/ /ˈrat(ə)l/ - verb</h3>
+    <P>Does something when it dies.</P>
+
+    <h2 onclick="getWord('deathwing')">Deathwing</h2>
+    <h3>/dɛθ/ /wɪŋ/ - noun</h3>
+    <P>Deathwing is a legendary neutral minion card from the Classic set.</P>
+
+    <h2 onclick="getWord('deck')">Deck</h2>
+    <h3>/dɛk/ - noun</h3>
+    <P>A deck is a collection of exactly 30 cards assembled before a match, as well as the zone which players draw cards from (and sometimes add cards to) during gameplay. Each deck is tied to a specific class.</P>
+
+    <h2 onclick="getWord('Dennis')">Dennis</h2>
+    <h3>noun</h3>
+    <P>This is used to refer to a player of low skill who makes noticeably bad plays. It originated in Kripparrian’s stream, while playing Arena on the very first turn a player named Dennis cast Holy Smite on Kripp’s face. Chat went crazy, and the name Dennis will be forever linked to bad players in Hearthstone. You can watch the full game here.</P>
+
+    <h2 onclick="getWord('discover')">Discover</h2>
+    <h3>/dɪˈskʌvə/ - noun</h3>
+    <P>Choose one of three cards to add to your hand.</P>
+
+    <h2 onclick="getWord('disguided toast')">Disguised Toast</h2>
+    <h3>/dɪsˈɡʌɪzd/ /təʊst/ - noun</h3>
+    <P>When SI:7 hits the board he says, “Heh, this guy’s toast!” If you aren’t listening closely it can be misheard as “Dis-guised Toast!” This is also the name of a popular Twitch Streamer/YouTuber.</P>
+
+    <h2>Direct Damage</h2>
+    <h3>/dɪˈrɛkt,dʌɪˈrɛkt/ /ˈdamɪdʒ/ - verb</h3>
+    <P>A card that can do damage directly to the opponent.</P>
+
+    <h2>Divine Shield</h2>
+    <h3>/dɪˈvʌɪn/ /ʃiːld/ - verb</h3>
+    <P>The first time a shielded minion takes damage, ignore it.</P>
+
+    <h2 onclick="getWord('dmg')">Dmg</h2>
+    <h3>/dmg/ - noun</h3>
+    <P>Short for 'damage'.</P>
+
+    <h2 onclick="getWord('doomguard')">Doomguard</h2>
+    <h3>/duːm/ /ɡɑːd/ - noun</h3>
+    <P>Doomguard is a rare warlock minion card, inducted into the Hall of Fame set, formerly from the Classic set.</P>
+
+    <h2 onclick="getWord('draft')">Draft</h2>
+    <h3>/drɑːft/ - verb</h3>
+    <P>This is a term that originated in MTG and is a popular way to play the game. Each player gets three packs, opens one, chooses a card and passes the rest of the pack to the next player. This continues until all cards and packs are distributed. You are then given time to construct your deck, which you then use to play your opponents with.</P>
+
+    <div class="class"><h2 onclick="getWord('Druid')">Druid</h2></div>
+    <h3>/ˈdruːɪd/ - noun</h3>
+    <P>The Druid icon.png Druid is one of the nine classes in Hearthstone, represented by Malfurion Stormrage, and Lunara.</P>
+
+    <h2 onclick="getWord('Dr.7')">Dr. 7</h2>
+    <h3>/dr/ - noun</h3>
+    <P>In Dr. Boom’s heyday it was just about required to be in every Midrange/Control deck because it’s super strong and there were barely any other options in the 7-drop spot. While the good doctor has now moved to Wild it is still referred to as Dr. 7 and other cards that are powerful and seem to be auto-includes can be referred to as “Dr. X”.</P>
+
+    <h2 onclick="getWord('dude')">Dude</h2>
+    <h3>/d(j)uːd/ - noun</h3>
+    <P>The minion that spawns when Paladin uses its default Hero Power is a Silver Hand Recruit which is sometimes referred to as a “Dude.”</P>
+
+    </div>
+
+    <div class="dummy-content">E</h1>
+    <div class="Ahero"><h2>Elise Starseeker</h2></div>
+    <h3>noun</h3>
+    <P>Elise Starseeker is a legendary neutral minion card, from the League of Explorers set.</P>
+
+    <h2 onclick="getWord('enrage')">Enrage</h2>
+    <h3>/ɪnˈreɪdʒ,ɛnˈreɪdʒ/ - verb</h3>
+    <P>While damaged, this minion has a new power.</P>
+
+    <h2>EXPANSIONS</h2>
+    <h3>/ɪkˈspanʃ(ə)n,ɛkˈspanʃ(ə)n/ - noun</h3>
+    <P>Expansions are major card set additions to the game of Hearthstone. Expansions introduce large amounts of cards into the game, in contrast to adventures,[1] with expansions featuring around 130-145 new cards and adventures only around 30-45 cards.</P>
+
+    <h2 onclick="getWord('EZ')">EZ</h2>
+    <h3>/ez/ - verb</h3>
+    <P>Stands for easy. It's meant to be an insult, saying you were an easy opponent.</P>
+    </div>
+  </div>
+
+  <div class="scrolling-pane two">
+    <div class="dummy-content">F</h1>
+    <h2 onclick="getWord('F')">F</h2>
+    <h3>/f/ - noun</h3>
+    <P>You press F to say 'respect'. F for respect.</P>
+
+    <h2 onclick="getWord('face')">Face</h2>
+    <h3>/feɪs/ - noun</h3>
+    <P>Each Hearthstone player is represented by a Hero Portrait, so “going to the face” is just attacking your opponent.</P>
+
+    <h2>Face Tank</h2>
+    <h3>/feɪs/ /taŋk/ - noun</h3>
+    <P>The term “tank” is a reference to the MMORPG (Massively Multiplayer Online Role-Playing Game e.g., World of Warcraft) version of the word, where you take the damage for your team while they heal and do damage themselves. In this case, you are using your Hero (Face) to deal damage to a minion instead of trading away your minions. This is common with weapon classes such as Rogue, Shaman, and Warrior.</P>
+
+    <h2>FeelsWeirdMan</h2>
+    <h3>/fiːl/ /wɪəd/ /man/ - noun</h3>
+    <P></P>
+
+    <h2>Fiery Win Axe</h2>
+    <h3>/ˈfʌɪəri/ /wɪn/ /aks/ - noun</h3>
+    <P>It’s referred to as this because when a Warrior has it in their opening hand they usually win.</P>
+
+    <h2 onclick="getWord('fireball')">Fireball</h2>
+    <h3>/ˈfʌɪəbɔːl/ - noun</h3>
+    <P>Fireball is a mage spell card, from the Basic set./P>
+
+    <h2 onclick="getWord('freeze')">Freeze</h2>
+    <h3>/friːz/ - verb</h3>
+    <P>Frozen characters lose their next attack.</P>
+
+    <h2 onclick="getWord('frog')">Frog</h2>
+    <h3>/frɒɡ/ - noun</h3>
+    <P>When you use Hex on a minion it turns into a 0/1 Frog with Taunt.</P>
+
+    <h2 onclick="getWord('frostbolt')">Frostbolt</h2>
+    <h3>/frɒst/ /bəʊlt/ - noun</h3>
+    <P>Frostbolt is a mage spell card, from the Basic set.</P>
+    </div>
+
+    <div class="dummy-content">G</h1>
+    <div class="hero"><h2>Garrosh Hellscream</h2></div>
+    <h3>noun</h3>
+    <P>Garrosh Hellscream represents the Warrior icon.png Warrior class in Hearthstone: Heroes of Warcraft.</P>
+
+    <h2>Get Down!</h2>
+    <h3>/ɡɛt/ /daʊn/ - noun</h3>
+    <P>When this secret is triggered a Defender minion is summoned and the emote is “Get Down!”</P>
+
+    <div class="hero"><h2>Gul’dan</h2></div>
+    <h3>noun</h3>
+    <P>Gul'dan represents the Warlock icon.png Warlock class in Hearthstone: Heroes of Warcraft.</P>
+  </div>
+
+    <div class="dummy-content">H</h1>
+      <h2 onclick="getWord('Hadronox')">Hadronox</h2>
+      <h3>noun</h3>
+      <P>Hadronox is a legendary druid minion card, from the Knights of the Frozen Throne set.</P>
+
+      <h2>haHAA</h2>
+      <h3>/hɑːˈhɑː/ - noun</h3>
+      <P>haHAA is a BTTV emote featuring Andy Samberg from The Lonely Island comedy music group, playing as Shy Ronnie. It is mostly used as a way to express discomfort, awkwardness or to deem something as Cringeworthy.</P>
+
+      <h2>HaHa!</h2>
+      <h3>/hɑːˈhɑː/ - noun</h3>
+      <P>When Southsea Deckhand hits the board he yells, “HAHA!”</P>
+
+      <h2>HAHAHAHAHA 4Head</h2>
+      <h3>/hɑːˈhɑː/ /hɛd/ - noun</h3>
+      <P>In Hearthstone, Ben Brode, Senior Game Developer of Hearthstone, commentated matches for the BlizzCon 2014 Hearthstone World Championship. Mr. Brode is an incredibly boisterous man, who seems to love life and gaming in a way that is enviable. During his casting, he exhibited a laugh that was undeniably infectious which caused Twitch chat to spam HAHAHAHA and the emote 4Head every time he laughed.</P>
+
+      <div class="cardtype"><h2>Hero cards</h2></div>
+      <h3>/ˈhɪərəʊ/ /kɑːd/ - noun</h3>
+      <P>Hero cards are a type of card first introduced in the Knights of the Frozen Throne expansion. Upon being played, a hero card will replace the player's hero, give them a small amount of Armor and replace their Hero Power with a new one.</P>
+
+      <h2>Hero power</h2>
+      <h3>/ˈhɪərəʊ/ /ˈpaʊə/ - noun</h3>
+      <P>A Hero Power is a special ability displayed to the right of each hero's portrait. Usually Hero Powers can be used once per turn and cost 2 mana, but some effects can modify the mana cost of Hero Powers or allow the use of a Hero Power multiple times per turn.</P>
+
+      <h2>Hi Mom!</h2>
+      <h3>/hʌɪ/ /mɒm/ - noun</h3>
+      <P>An infamous incident involving Rdu at Dreamhack Summer 2014 where people on Rdu’s friends list messaged him throughout his matches. Included in these messages was the phrase “Hello mom !” (video here), but more importantly one individual messaged him the contents of his opponent’s hand.</P>
+
+      <h2 onclick="getWord('Huntard')">Huntard</h2>
+      <h3>noun</h3>
+      <P>A deck on Hearthstone.</P>
+
+      <div class="class"><h2 onclick="getWord('hunter')">Hunter</h2></div>
+      <h3>/ˈhʌntə/ - noun</h3>
+      <P>The Hunter is one of the nine classes in Hearthstone, represented by Rexxar, and Alleria Windrunner.</P>
+
+      <h2 onclick="getWord('hunterace')">Hunterace</h2>
+      <h3>/ˈhʌntə/ /reɪs/ - noun</h3>
+      <P>The name of a populair Heartone player.</P>
+
+      <h2 onclick="getWord('hypersmorc')">Hypersmorc</h2>
+      <h3>noun</h3>
+      <P></P>
+
+    </div>
+
+    <div class="dummy-content">I</h1>
+    <h2 onclick="getWord('immune')">Immune</h2>
+    <h3>/ɪˈmjuːn/ - noun</h3>
+    <P>Immune characters can’t be damaged.</P>
+
+    <h2 onclick="getWord('initiative')">Initiative</h2>
+    <h3>/ɪˈnɪʃətɪv/ - noun</h3>
+    <P>When you have the initiative it means you will get to attack with a minion before your opponent can. When you summon a minion it will have “summoning sickness” (unless it has Charge), and that means you can’t attack with it the turn you put it on the board. If you play a minion on an empty board, and your opponent then plays a minion, that means you have initiative because you can choose to attack the minion or your opponent’s face.</P>
+
+    <h2 onclick="getWord('inspire')">Inspire</h2>
+    <h3>/ɪnˈspʌɪə/ - verb</h3>
+    <P>Does something after you use your Hero Power.</P>
+  </div>
+
+    <div class="dummy-content">J</h1>
+      <h2>Jade Golem</h2>
+      <h3>/dʒeɪd/ /ˈɡəʊləm/ - noun</h3>
+      <P>Your first Jade Golem is 1/1. Each future one has +1/+1.</P>
+
+      <div class="hero"> <h2>Jaina Proudmoore</h2> </div>
+      <h3>noun</h3>
+      <P>Jaina Proudmoore represents the Mage class in Hearthstone: Heroes of Warcraft.</P>
+  </div>
+  </div>
+
+  <div class="scrolling-pane three">
+    <div class="dummy-content">K</h1>
+    <h2 onclick="getWord('KEKW')">KEKW</h2>
+    <h3>noun</h3>
+    <P>KEKW is an emote on twitch.</P>
+
+    <h2 onclick="getWord('keltuzard')">Kel'tuzard</h2>
+    <h3>noun</h3>
+    <P>Kel'Thuzad is a minion for use by any class. For the cost of 8 , he resurrects all friendly minions that have died at the end of each turn. He also has a moderate amount of attack and health.</P>
+
+    <div class="Ahero"><h2 onclick="getWord('Khadgar')">Khadgar</h2></div>
+    <h3>noun</h3>
+    <P>Khadgar is an alternate hero for the Mage class in Hearthstone: Heroes of Warcraft.</P>
+
+    <div class="Ahero"><h2>King Rastakhan</h2></div>
+    <h3>/kɪŋ/ - noun</h3>
+    <P>King Rastakhan is an alternate hero for the Shaman class in Hearthstone.</P>
+
+    <h2>KITKATZ LIED</h2>
+    <h3>/kɪt/ /kat/ /liːd,liːt/ - noun</h3>
+    <P>Kitkatz is a Hearthstone Streamer that is known for his proficiency with the Warrior class. Kitkatz would often claim that his Armorsmith would win every Brawl. Inevitably, Armorsmith lost a Brawl for him and KITKATZ LIED was created.</P>
+
+    <h2 onclick="getWord('KKONA')">KKONA</h2>
+    <h3>noun</h3>
+    <P>KKona is an emote on twitch. Used as generic american (or rather NA) face. So basically scuffed american.</P>
+
+    <h2 onclick="getWord('KlappaBOB')">KlappaBOB</h2>
+    <h3>noun</h3>
+    <P></P>
+
+    <h2 onclick="getWord('kolento')">Kolento</h2>
+    <h3>noun</h3>
+    <P>Kolento (real name Alexander Malsh) is a popular streamer and noted player of Hearthstone.</P>
+
+    <h2 onclick="getWord('krippW')">KrippW</h2>
+    <h3>noun</h3>
+    <P>KrippW is an emote on twitch.</P>
+
+    <h2 onclick="getWord('kripYAYA')">KripYAYA</h2>
+    <h3>noun</h3>
+    <P>KripYAYA is an emote on twitch.</P>
+
+    <h2 onclick="getWord('krug')">Krug</h2>
+    <h3>noun</h3>
+    <P></P>
+
+    </div>
+
+    <div class="dummy-content">L</h1>
+    <h2 onclick="getWord('ladder')">Ladder</h2>
+    <h3>/ˈladə/ - noun</h3>
+    <P>The ladder is in reference to Ranked Play. When you play Ranked you are climbing in ranks, aka Climbing the Ladder. There are technically two separate ladder or ranked systems: Ranks 25 – 1 and Legend. In the ranks of 25 – 1 you gain stars for each win, once you hit rank 1 and get enough stars you become Legend. You then get a Legend number that displays where you are on the Legend Ladder. </P>
+
+    <div class="Ahero"><h2>Lady Liadrin</h2></div>
+    <h3>/ˈleɪdi/ - noun</h3>
+    <P>Lady Liadrin is an alternate hero for the Paladin class in Hearthstone: Heroes of Warcraft.</P>
+
+    <h2 onclick="getWord('legal')">Legal</h2>
+    <h3>/ˈliːɡ(ə)l/ - noun</h3>
+    <P>Chat has a tendency to call out lethal damage in situations where the streamer either doesn’t have the damage, or where there wouldn’t be enough mana to do all the things they are referencing.</P>
+
+    <h2 onclick="getWord('legend')">Legend</h2>
+    <h3>/ˈlɛdʒ(ə)nd/ - noun</h3>
+    <P>Legend is the highest possible rank in Hearthstone. It is attained by essentially advancing past Rank 1. The structure of the ladder here is completely different from the structure of every other rank on ladder. In Legend there are no star buffers, bonus stars, ranks, there is only Elo.</P>
+
+    <h2 onclick="getWord('LUL')">LUL</h2>
+    <h3>noun</h3>
+    <P>Stands for "Lame Uncomfortable Laugh".</P>
+
+    <h2 onclick="getWord('LULW')">LULW</h2>
+    <h3>noun</h3>
+    <P>LULW is an emote on twitch.</P>
+
+    <div class="Ahero"><h2 onclick="getWord('Lunara')">Lunara</h2></div>
+    <h3>noun</h3>
+    <P>Lunara is an alternate hero for the Druid class in Hearthstone.</P>
+
+    </div>
+
+    <div class="dummy-content">M</h1>
+    <div class="Ahero"><h2>Madame Lazul</h2></div>
+    <h3>/məˈdɑːm,ˈmadəm,French madam/ - noun</h3>
+    <P>Madame Lazul is a alternate hero for the Priest class in Hearthstone.</P>
+
+    <div class="class"><h2 onclick="getWord('mage')">Mage</h2></div>
+    <h3>/meɪdʒ/ - noun</h3>
+    <P>The Mage is one of the nine classes in Hearthstone, represented by Jaina Proudmoore, Khadgar, and Medivh.</P>
+
+    <div class="Ahero"><h2>Magni Bronzebeard</h2></div>
+    <h3>noun</h3>
+    <P>Magni Bronzebeard is an alternate hero for the Warrior class in Hearthstone: Heroes of Warcraft.</P>
+
+    <div class="Ahero"><h2>Maiev Shadowsong</h2></div>
+    <h3>noun</h3>
+    <P>Maiev Shadowsong is an alternate hero for the Rogue class in Hearthstone: Heroes of Warcraft.</P>
+
+    <div class="hero"><h2 onclick="getWord('malfurion')">Malfurion</h2></div>
+    <h3>noun</h3>
+    <P>Malfurion Stormrage represents the Druid class in Hearthstone: Heroes of Warcraft.</P>
+
+    <h2 onclick="getWord('mana')">Mana</h2>
+    <h3>/ˈmɑːnə/ - noun</h3>
+    <P>Mana is the resource used in Hearthstone to play cards and use Hero Powers, each of which has a mana cost that must be paid to use it.</P>
+
+    <h2 onclick="getWord('mechachun')">Mecha'thun</h2>
+    <h3>noun</h3>
+    <P>Mecha'thun Warrior is a Hearthstone deck archetype that's built around the mighty Mech minion that was released with The Boomsday Project. If you've no cards left in your deck or your hand, and no other minions on the board at the time, then Mecha'thun will obliterate the opponent at the moment of his destruction.</P>
+
+    <div class="Ahero"><h2>Mecha-Jaraxxus</h2></div>
+    <h3>noun</h3>
+    <P>Mecha-Jaraxxus is an alternate hero for the Warlock class in Hearthstone.</P>
+
+    <div class="Ahero"><h2 onclick="getWord('Medivh')">Medivh</h2></div>
+    <h3>noun</h3>
+    <P>Medivh is an alternate hero for the Mage class in Hearthstone: Heroes of Warcraft.</P>
+
+    <h2 onclick="getWord('MEGAKEK')">MEGAKEK</h2>
+    <h3>noun</h3>
+    <P>MEGAKEK is an emote on twitch.</P>
+
+    <h2>Mega-Windfury</h2>
+    <h3>/ˈmɛɡə/ /wɪnd/ /ˈfjʊəri/ - noun</h3>
+    <P>Can attack four times a turn. Currently the only card that has this keyword is V-07-TR-0N, which is a Token of Mimiron's Head.</P>
+
+    <h2 onclick="getWord('meta')">Meta</h2>
+    <h3>/ˈmɛtə/ - noun</h3>
+    <P>The current mix of decks that popularize the Hearthstone Ladder. Knowledge of the current meta helps you tweak your deck in a way that is better suited against it. </P>
+
+    <h2 onclick="getWord('midrange')">Midrange</h2>
+    <h3>/mɪd/ /reɪn(d)ʒ/ - noun</h3>
+    <P>A term that refers to an Aggro-Control style of deck that generally hosts the majority of its minions in the 4 – 8 mana range. Midrange looks to control Aggro and beat down Control. The lines between Midrange and Control are fairly thin compared to Midrange and Aggro.</P>
+
+    <h2 onclick="getWord('mill')">Mill</h2>
+    <h3>/mɪl/ - verb</h3>
+    <P>This is another term from MTG that originated from the card, Millstone. In Hearthstone, to “Mill” someone is to make your opponent burn cards from his deck (cards are burned if you draw a card with 10 cards in hand). Some decks are focused around this concept, and seek to make their opponent burn all of their cards and lose due to Fatigue damage.</P>
+
+    <div class="cardtype"><h2 onclick="getWord('minion')">Minion</h2></div>
+    <h3>/ˈmɪnjən/ - noun</h3>
+    <P>Minions are persistent creatures on the battlefield that will fight for their hero. Minion cards can be recognized by their Attack (a number displayed on a yellow sword, in the bottom left corner) and Health (a number displayed on a red blood drop, in the bottom right corner).</P>
+
+    <h2 onclick="getWord('MonkaHmm')">MonkaHmm</h2>
+    <h3>/mʌŋkahm/ - noun</h3>
+    <P>MonkaHmm is an emote on twitch.</P>
+
+    <h2 onclick="getWord('MonkaS')">MonkaS</h2>
+    <h3>/mʌŋkas/ - noun</h3>
+    <P>MonkaS is an emote on twitch.</P>
+
+    <h2 onclick="getWord('MonkaW')">MonkaW</h2>
+    <h3>/mʌŋkaw/ - noun</h3>
+    <P>MonkaW is an emote on twitch.</P>
+
+    <div class="Ahero"><h2>Morgl the Oracle</h2></div>
+    <h3>/ðə,ðɪ,ðiː/ /ˈɒrək(ə)l/ - noun</h3>
+    <P>Morgl the Oracle is an alternate hero for the Shaman class in Hearthstone: Heroes of Warcraft.</P>
+
+    <h2 onclick="getWord('Mulligan')">Mulligan</h2>
+    <h3>/ˈmʌlɪɡ(ə)n/ - noun</h3>
+    <P>This refers to the cards you are shown in the beginning of your hand that you can keep or pick which ones to send back into your deck.</P>
+
+    <h2 onclick="getWord('Mulligan')">Murloc</h2>
+    <h3>noun</h3>
+    <P>Murlocs are a type of minion, best known for their swarming gameplay and board-wide synergy. Relatively weak in isolation, their low mana cost allows them to quickly flood the board, with their synergistic effects causing them to grow in strength as each new Murloc arrives.</P>
+  </div>
+
+    <div class="dummy-content">N</h1>
+    <h2>NAXX is Out</h2>
+    <h3>/nax/ /ɪz/ /aʊt/ - noun</h3>
+    <P>Curse of Naxxramas was the first Adventure Mode released for Hearthstone. Blizzard announced that the expansion would be released sometime in July 2014. This lead to people in Twitch chat trolling others by saying, “NAXX IS OUT.” </P>
+
+    <div class="Ahero"><h2>Nemsy Necrofizzle</h2></div>
+    <h3>noun</h3>
+    <P>Nemsy Necrofizzle is an alternate hero for the Warlock class in Hearthstone.</P>
+
+    <h2 onclick="getWord('nerf')">Nerf</h2>
+    <h3>/nəːf/ - verb</h3>
+    <P>When Blizzard reduces the power of a card that was deemed overpowered. A common nerf from Blizzard has been to add extra Mana to certain op cards. A good example of this was Starving Buzzard being increased to 5 mana from 2.</P>
+
+    <h2 onclick="getWord('netdeck')">Netdeck</h2>
+    <h3>/dɛk/ - verb</h3>
+    <P>Utilizing quality websites (like this one, cough) to play the best decks instead of creating your own.</P>
+
+    <h2 onclick="getWord('neutral')">Neutral</h2>
+    <h3>/ˈnjuːtr(ə)l/ - noun</h3>
+    <P>Neutral is the term used to describe cards which are not limited to a specific class. Neutral collectible cards can be included in any deck, regardless of hero.</P>
+    </div>
+
+    <div class="dummy-content">O</h1>
+    <h2 onclick="getWord('OMEGALUL')">OMEGALUL</h2>
+    <h3>noun</h3>
+    <P>OMEGALUL is an emote on twitch. In terms of what it represents, its just an emote of a laughing TotalBiscuit face. It's just another way to indicate you're laughing or you find something funny.</P>
+
+    <h2 onclick="getWord('OTK')">OTK</h2>
+    <h3>noun</h3>
+    <P>OTK stands for One Turn Kill which is associated with decks that can generate huge burst damage and can kill the opponent in one turn.</P>
+
+    <h2 onclick="getWord('overload')">Overload</h2>
+    <h3>/əʊvəˈləʊd/ - noun</h3>
+    <P>You have X less mana next turn. The X is represented by the number on the card. Overload is currently limited to the Shaman class.</P>
+
+    <h2 onclick="getWord('overpowered')">Overpowered</h2>
+    <h3>/əʊvəˈpaʊə/ - noun</h3>
+    <P>Cards that are so dominant that they “break” the game.</P>
+
+    </div>
+  </div>
+
+    <div class="scrolling-pane four">
+      <div class="dummy-content">P</h1>
+      <h2 onclick="getWord('packs')">Packs</h2>
+      <h3>/pak/ - noun</h3>
+      <P>Packs are items that players can open to acquire cards for filling a player's collection.</P>
+
+      <div class="class"><h2 onclick="getWord('Paladin')">Paladin</h2></div>
+      <h3>/ˈpalədɪn/ - noun</h3>
+      <P>The Paladin is one of the nine classes in Hearthstone, represented by Uther Lightbringer, Lady Liadrin, Prince Arthas, and Sir Annoy-O.</P>
+
+      <h2 onclick="getWord('PepeEyes')">PepeEyes</h2>
+      <h3>noun</h3>
+      <P>PepeEyes is an emote on twitch.</P>
+
+      <h2 onclick="getWord('PepeD')">PepeD</h2>
+      <h3>noun</h3>
+      <P>PepeD is an emote on twitch.</P>
+
+      <h2 onclick="getWord('Pepega')">Pepega</h2>
+      <h3>noun</h3>
+      <P>Pepega is a Twitch Emote featuring a distorted image of Pepe the Frog which is used to ironically express that something is stupid and is commonly accompanied by the slang pejorative to describe a person with a mental disability and the words "FOR SAN" in reference to the Twitch streamer Forsen.</P>
+
+      <h2 onclick="getWord('PepeHands')">PepeHands</h2>
+      <h3>noun</h3>
+      <P>PepeHands is an emote on twitch.</P>
+
+      <h2 onclick="getWord('Pepejam')">Pepejam</h2>
+      <h3>noun</h3>
+      <P>Pepejam is an emote on twitch.</P>
+
+      <h2 onclick="getWord('ping')">Ping</h2>
+      <h3>/pɪŋ/ - noun</h3>
+      <P>Usually associated with the Mage Hero Ability, it is in reference to dealing 1 damage to a target or removing a Divine Shield.</P>
+
+      <h2 onclick="getWord('pog')">Pog</h2>
+      <h3>/pɒɡ/ - noun</h3>
+      <P>Pog is an emote on twitch.</P>
+
+      <h2 onclick="getWord('Pogchamp')">Pogchamp</h2>
+      <h3>/pɒɡ/ /tʃamp/- noun</h3>
+      <P>Pogchamp is an emote used frequently in twitch chats. It's often used to express being surprised.</P>
+
+      <h2 onclick="getWord('poggers')">Poggers</h2>
+      <h3>noun</h3>
+      <P>“poggers” refers to a specific emoticon available on Twitch which depicts a surprised-looking Pepe the Frog. The word “poggers” is used to express excitement during a game when something exciting occurs.</P>
+
+      <h2 onclick="getWord('PogU')">PogU</h2>
+      <h3>/pɒɡu/ - noun</h3>
+      <P>PogU is an emote on twitch.</P>
+
+      <h2 onclick="getWord('poisonous')">Poisonous</h2>
+      <h3>/ˈpɔɪzənəs/ - noun</h3>
+      <P>Destroy any minion damaged by this.</P>
+
+      <h2 onclick="getWord('Poki1')">Poki1</h2>
+      <h3>noun</h3>
+      <P>Poki! is an emote on twitch.</P>
+
+      <h2 onclick="getWord('post-nerf')">Post-nerf</h2>
+      <h3>/pəʊst/ /nəːf/ - noun</h3>
+      <P></P>
+
+      <h2 onclick="getWord('PotAYAYA')">PotAYAYA</h2>
+      <h3>/pɒt/ /jə,ja/ /jə,ja/ - noun</h3>
+      <P>PotAYAYA is an emote on twitch.</P>
+
+      <h2 onclick="getWord('Priest')">Priest</h2>
+      <h3>/priːst/ - noun</h3>
+      <P>The Priest is one of the nine classes in Hearthstone, represented by Anduin Wrynn, Tyrande Whisperwind and Madame Lazul.</P>
+
+      <div class="play"><h2 onclick="getWord('practice')">Practice</h2></div>
+      <h3>/ˈpraktɪs/ - noun</h3>
+      <P>Practice mode is a type of adventure in which the player does battle against computer-controlled versions of the regular playable classes. Players can select the opponent of their choice, and either Basic or Expert difficulty, determining the deck and tactical ability of the AI opponent.</P>
+
+      <div class="Ahero"><h2>Prince Arthas</h2></div>
+      <h3>/prɪns/ - noun</h3>
+      <P>Prince Arthas Menethil is an alternate hero for the Paladin class in Hearthstone: Heroes of Warcraft.</P>
+
+      <h2 onclick="getWord('Pyroblast')">Pyroblast</h2>
+      <h3>noun</h3>
+      <P>Pyroblast is an epic mage spell card, from the Classic set.</P>
+
+      </div>
+
+      <div class="dummy-content">Q</h1>
+      <div class="cardtype"><h2 onclick="getWord('quest')">Quest</h2></div>
+      <h3>/kwɛst/ - noun</h3>
+      <P>Starts in your hand. Complete for a reward. It more accurately starts in your mulligan, and you can pitch it back into your deck if you choose.</P>
+      </div>
+
+      <div class="dummy-content">R</h1>
+      <h2 onclick="getWord('rag')">Rag</h2>
+      <h3>/raɡ/ - noun</h3>
+      <P>A shorthand version for Ragnaros.</P>
+
+      <h2 onclick="getWord('ramp')">Ramp</h2>
+      <h3>/ramp/ - verb</h3>
+      <P>Using cards to increase the amount of your Mana pool permanently or temporarily. Druid is usually associated with Ramp due to the cards Innervate and Wild Growth. Ramp effects can be associated with cards that decrease mana cost.</P>
+
+      <div class="play"><h2 onclick="getWord('ranked')">Ranked</h2></div>
+      <h3>/raŋk/ - noun</h3>
+      <P>Ranked (also known as Ranked Play) is the serious side of Play mode, with players able to earn special ranks to reflect their prowess in battle this season. Winning and losing matches can gain or lose players rank, with the player's rank determining matchmaking.</P>
+
+      <div class="hero"><h2 onclick="getWord('Rexxar')">Rexxar</h2></div>
+      <h3>noun</h3>
+      <P>Rexxar represents the Hunter class in Hearthstone: Heroes of Warcraft.</P>
+
+      <h2>Rise of Shadows</h2>
+      <h3>/rʌɪz/ /ɒv,(ə)v/ /ˈʃadəʊ/ - noun</h3>
+      <P>Rise of Shadows is Hearthstone's eleventh expansion, featuring 135 new collectible cards and the alternate priest hero Madame Lazul. The expansion was released on April 9, 2019.[</P>
+
+      <h2 onclick="getWord('RNG')">RNG</h2>
+      <h3>/rng/ - noun</h3>
+      <P>RNG stands for Random Number Generator. It’s a programming term that refers to the computer “randomly” generating a number that will determine the outcome of certain abilities.</P>
+
+      <div class="class"><h2 onclick="getWord('Rogue')">Rogue</h2></div>
+      <h3>/rəʊk/ - noun</h3>
+      <P>The Rogue is one of the nine classes in Hearthstone, represented by Valeera Sanguinar and Maiev Shadowsong.</P>
+
+      <h2 onclick="getWord('roping')">Roping</h2>
+      <h3>/ˈrəʊpɪŋ/ - verb</h3>
+      <P>When a player continually extends their turn for the fully allotted time it is referred to as roping. The reason for this is due to a rope or fuse that appears when you have a limited time remaining in your turn. Lifecoach is referred to as “Ropecoach” due to his fondness for using the entire turn to think out his moves and only acts once the rope starts to tick down.</P>
+  </div>
+
+      <div class="dummy-content">S</h1>
+        <h2 onclick="getWord('salty')">Salty</h2>
+        <h3>/ˈsɔːlti,ˈsɒlti/ - noun</h3>
+        <P>Basically means someone getting angry after losing. The idea is it's implying they are crying, ergo salt.</P>
+
+        <h2>Savior of Uldum</h2>
+        <h3>/ˈseɪvjə/ /ɒv,(ə)v/ noun</h3>
+        <P>Saviors of Uldum is Hearthstone's twelfth expansion. Featuring 135 new collectible cards, it was released on August 6, 2019.</P>
+
+        <h2 onclick="getWord('scar')">Scar</h2>
+        <h3>/skɑː/ - noun</h3>
+        <P>The main villain in The Lion King went by the name “Scar.” Savannah Highmane’s Deathrattle summons Hyenas which were Scar’s henchmen in the movie.</P>
+
+        <h2 onclick="getWord('scar')">Scrub</h2>
+        <h3>/skrʌb/ - noun</h3>
+        <P>When Defias Ringleader hits the board his emote is, “This is our town scrub!” If the card was comboed a Defias Bandit is summoned that follows it up with, “Yeah, beat it!”</P>
+
+        <h2 onclick="getWord('secret')">Secret</h2>
+        <h3>/ˈsiːkrɪt/ - noun</h3>
+        <P>Hidden until a specific action occurs on your opponent’s turn. Currently only three classes have Secrets: Hunter, Mage, and Paladin.</P>
+
+        <h2>Secret mage</h2>
+        <h3>/ˈsiːkrɪt/ /meɪdʒ/ - noun</h3>
+        <P>Secret Mage is a Mage deck type that is derived from Tempo Mage. It is characterized by utilizing Mage's various efficient Secret cards as well as synergistic cards like Kabal Crystal Runner to disrupt and out-tempo the opponent.</P>
+
+      <div class="class"><h2 onclick="getWord('Shaman')">Shaman</h2></div>
+      <h3>/ˈʃɑːmən,ˈʃamən,ˈʃeɪmən/ - noun</h3>
+      <P>The Shaman is one of the nine classes in Hearthstone, represented by Thrall, Morgl the Oracle and King Rastakhan.</P>
+
+      <h2 onclick="getWord('sheep')">Sheep</h2>
+      <h3>/ʃiːp/ - noun</h3>
+      <P>When you use Polymorph on a minion it turns into a 1/1 Sheep.</P>
+
+
+      <div class="Ahero"><h2>Sir Annoy-O</h2></div>
+      <h3>/səː/ /əˈnɔɪo/ noun</h3>
+      <P>Sir Annoy-O is an alternate hero for the Paladin class in Hearthstone.</P>
+
+      <h2 onclick="getWord('SKILLstrike')">SKILLstrike</h2>
+      <h3>/skɪl/ /strʌɪk/ - noun</h3>
+      <P>A play on the card Flamestrike, which refers to the perceived overpowered nature of the card in Arena.</P>
+
+      <h2 onclick="getWord('SmileW')">SmileW</h2>
+      <h3>/smʌɪlw/ - noun</h3>
+      <P>SmileW is a twitch chat emote.</P>
+
+      <h2 onclick="getWord('SMOrc')">SMOrc</h2>
+      <h3>noun</h3>
+      <P>SMOrc is a Twitch chat emote of an Orc that basically kind of looks like Rexxar who is the Hunter Hero. The Hunter class is known for being aggressive due to its hero power, so naturally this emote became associated with indiscriminately attacking your opponent while ignoring their board.</P>
+
+      <h2 onclick="getWord('Smorced')">Smorced</h2>
+      <h3>noun</h3>
+      <P>Smorced is a twitch chat emote.</P>
+
+      <h2 onclick="getWord('snipe')">Snipe</h2>
+      <h3>/snʌɪp/ - noun</h3>
+      <P>This is not referring to the actual card Snipe, but Snipe or Sniping refers to when a streamer believes their opponent is watching their Twitch stream (often correctly, yes people do this) so the opponent knows which cards are in their hand.</P>
+
+      <div class="cardtype"><h2>Spell</h2></div>
+      <h3>/spɛl/ - noun</h3>
+      <P>Spell cards are cards that can be played to trigger a one time effect or ability, described in the card's text. Casting a spell consumes the card, producing an immediate effect, although spells with the Secret or Quest ability are delayed until activated by specific events. </P>
+
+      <h2>Spell Damage</h2>
+      <h3>/spɛl/ /ˈdamɪdʒ/ - noun</h3>
+      <P>Your spell cards deal 1 extra damage. This isn’t always the case, certain cards can increase the damage further like Malygos.</P>
+
+      <h2 onclick="getWord('standard')">Standard</h2>
+      <h3>/ˈstandəd/ - noun</h3>
+      <P>Standard is currently one of two formats you can play in Hearthstone (the other being Wild). The Standard rules are that you play with only card sets from the previous and current year. Any sets of cards that came out before this time period are not allowed to be used in Standard. The only exceptions are the Basic and Classic sets which are always part of Standard.</P>
+
+      <h2 onclick="getWord('stealth')">Stealth</h2>
+      <h3>/stɛlθ/ - noun</h3>
+      <P>Can’t be attacked or targeted until it deals damage. Flare is currently the only card that can remove Stealth.</P>
+</div>
+
+      <div class="dummy-content">T</h1>
+      <h2 onclick="getWord('taunt')">Taunt</h2>
+      <h3>/tɔːnt/ - noun</h3>
+      <P>Enemies must attack minions that have Taunt.</P>
+
+      <div class="play"><h2>Tavern Brawl</h2></div>
+      <h3>/ˈtav(ə)n/ /brɔːl/ - noun</h3>
+      <P>Tavern Brawl is one of Hearthstone's lighter game modes.</P>
+
+      <h2>Taz'dingo</h2>
+      <h3>noun</h3>
+      <P>Sen’jin Shieldmasta’s emote is “Taz’dingo! Yes!”</P>
+
+      <h2 onclick="getWord('TBK')">TBK</h2>
+      <h3>/tbk/ - noun</h3>
+      <P>TBK is an initialism for The Black Knight.</P>
+
+      <h2 onclick="getWord('tempo')">Tempo</h2>
+      <h3>/ˈtɛmpəʊ/ - noun</h3>
+      <P>Cards that are so dominant that they “break” the game.</P>
+
+      <h2>Tempo rouge</h2>
+      <h3>/ˈtɛmpəʊ/ /ruːʒ/ - noun</h3>
+      <P>Tempo Rogue is a Tempo-focused Aggro Rogue deck type. It heavily revolves around making efficient tempo plays using Rogue's wide variety of low-cost spells, efficient removal and burst damage to snowball a board advantage and quickly finish off the opponent.</P>
+
+      <h2 onclick="getWord('Thekal')">Thekal</h2>
+      <h3>noun</h3>
+      <P>High Priest Thekal is a legendary paladin minion card, from the Rastakhan's Rumble set.</P>
+
+      <div class="Ahero"><h2>The Thunder King</h2></div>
+      <h3>/ðə,ðɪ,ðiː/ /ˈθʌndə/ /kɪŋ/ - noun</h3>
+      <P>Lei Shen, the Thunder King is an alternate hero for the Shaman class in Hearthstone.</P>
+
+      <div class="hero"><h2 onclick="getWord('thrall')">Thrall</h2></div>
+      <h3>/θrɔːl/ - noun</h3>
+      <P>Thrall represents the Shaman class in Hearthstone: Heroes of Warcraft.</P>
+
+      <h2 onclick="getWord('token')">Token</h2>
+      <h3>/ˈtəʊk(ə)n/ - noun</h3>
+      <P>Cards that are generated from other cards and that are not collectible are considered tokens. There are certain decks that revolve around generating many tokens and using them to overrun their opponent.</P>
+
+      <h2 onclick="getWord('topdeck')">Topdeck</h2>
+      <h3>/tɒp/ /dɛk/ - noun</h3>
+      <P>Drawing a card off the top of your deck that perfectly fits a situation. This term is often overused by people looking for a way to excuse a loss. A true top deck is when someone is in a hopeless spot and can only win if they draw a particular card.</P>
+
+      <h2>Tyrande Whisperwind</h2>
+      <h3>noun</h3>
+      <P>Tyrande Whisperwind is an alternate hero for the Priest class.</P>
+</div>
+    </div>
+
+    <div class="scrolling-pane five">
+      <div class="dummy-content">U</h1>
+      <div class="hero"><h2>Uther Lightbringer</h2></div>
+      <h3>noun</h3>
+      <P>Uther Lightbringer represents the Paladin class in Hearthstone: Heroes of Warcraft.</P>
+    </div>
+
+      <div class="dummy-content">V</h1>
+      <div class="hero"><h2>Valeera Sanguinar</h2></div>
+      <h3>noun</h3>
+      <P>Valeera Sanguinar represents the Rogue class in Hearthstone: Heroes of Warcraft.</P>
+
+      <h2 onclick="getWord('value')">Value</h2>
+      <h3>/ˈvaljuː/ - noun</h3>
+      <P>Getting value from a card refers to using one card to take out multiple of your opponent’s.</P>
+
+      <h2 onclick="getWord('Vargoth')">Vargoth</h2>
+      <h3>noun</h3>
+      <P>Archmage Vargoth is a legendary neutral minion card, from the Rise of Shadows set.</P>
+      </div>
+
+      <div class="dummy-content">W</h1>
+      <div class="class"><h2 onclick="getWord('warlock')">Warlock</h2></div>
+      <h3>/ˈwɔːlɒk/ - noun</h3>
+      <P>The Warlock is one of the nine classes in Hearthstone, represented by Gul'dan, Nemsy Necrofizzle and Mecha-Jaraxxus.</P>
+
+      <div class="class"><h2 onclick="getWord('warrior')">Warrior</h2></div>
+      <h3>/ˈwɒrɪə/ - noun</h3>
+      <P>The Warrior is one of the nine classes in Hearthstone, represented by Garrosh Hellscream and Magni Bronzebeard.</P>
+
+      <div class="cardtype"><h2 onclick="getWord('weapon')">Weapon</h2></div>
+      <h3>/ˈwɛp(ə)n/ - noun</h3>
+      <P>Weapons are special cards which can be equipped by heroes. Each weapon has an Attack value and a Durability value. Each hero can only equip one weapon at a time, and equipping a new weapon will destroy the old one.</P>
+
+      <h2 onclick="getWord('wild')">Wild</h2>
+      <h3>/wʌɪld/ - adjective</h3>
+      <P>Wild is currently one of two formats you can play in Hearthstone (the other being Standard). While Standard restricts the card sets you are allowed to play, Wild allows you to play all cards from any set.</P>
+
+      <h2 onclick="getWord('Windfury')">Windfury</h2>
+      <h3>/wɪnd/ /ˈfjʊəri/ - noun</h3>
+      <P>Can attack twice each turn.</P>
+      </div>
+
+      <div class="dummy-content">X</div>
+
+      <div class="dummy-content">Y</h1>
+      <h2 onclick="getWord('Yogg')">Yogg</h2>
+      <h3>noun</h3>
+      <P>Yogg-Saron was initially celebrated upon release due to all of the crazy things he could do in a game, but once players realized that he was going to be used competitively the tide quickly turned against Yogg. He eventually would be nerfed (he stops casting once he’s removed from the board), and sees less play.</P>
+
+      <h2>Yolo Bomber</h2>
+      <h3>/ˈjəʊləʊ/ /ˈbɒmə/ - noun</h3>
+      <P>Sometimes you are put into a situation where a well-placed bomb from one of these cards can either help turn the game around or make it worse for you. This means it’s time for a YOLO (You Only Live Once) play.</P>
+
+    </div>
+
+      </div>
+    </div>
+
+
+    <div class="scrolling-pane six">
+
+      <div class="dummy-content">Z</h1>
+      <h2>Zaligos dru</h2>
+      <h3>noun</h3>
+      <P></P>
+
+      <h2 onclick="getWord('zoo')">Zoo</h2>
+      <h3>/zuː/ - noun</h3>
+      <P>A term that refers to decks that gather the best low cost creatures and seeks to take out the opponent quickly. Reynad famously coined his Aggro/Control Warlock deck “Zoo.” The term is now used to describe any Warlock deck that uses low cost minions to aggressively control the board and destroy the opponent.</P>
+
+    </div>
+
+      <div class="dummy-content">!</h1>
+        <h2>!decklist</h2>
+        <h3>/dɛk/ /lɪst/ - noun</h3>
+        <P>Viewers type this in the chat to get the current decklist that the streamer plays.</P>
+
+        <h2>!watchtime</h2>
+        <h3>/!wɒtʃ/ /tʌɪm/ - noun</h3>
+        <P>Viewers type this in the chat to get their current watchtime.</P>
+
+        <h2>!followage</h2>
+        <h3>/!ˈfɒləʊ/ /eɪdʒ/ - noun</h3>
+        <P></P>
+
+        <h2>!love</h2>
+        <h3>/!lʌv/ - noun</h3>
+        <P></P>
+
+        <h2>!lettuce</h2>
+        <h3>/!ˈlɛtɪs/ - noun</h3>
+        <P></P>
+      </div>
+
+      <div class="dummy-content">5</h1>
+      <P>/fʌɪv/ /hɛd/ - 5Head</P>
+      <h3>noun</h3>
+      <P></P>
+    </div>
+
+
+
+  </div>
+<div id="tempDiv" class="card1"><img src="card1.png" /></div>
+<div id="tempDiv1" class="card2"><img src="card4.png" /></div>
+<div id="tempDiv2" class="card3"><img src="card3.png" /></div>
+
+<div class="mana"><img src="mana.png" /></div>
+
+  <!-- <div id="mydiv">
+
+    <div id="mydivheader">Click here to move</div>
+
+  </div> -->
+
+<!-- <div class="flier"><img src="card1.png" /></div> -->
+
+
+
+
+
+  <!-- NO HTML LAYOUT BELOW THIS POINT! -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="index.js"></script>
+
+<!-- the body ends here -->
+</body>
+</html>
+<!-- end of the html document, nothing to see here, move along -->

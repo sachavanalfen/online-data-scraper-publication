@@ -1,9 +1,9 @@
 {
-    "name": "",
+    "name": "my-first-web-scraper",
     "version": "0.0.1",
-    "homepage": "",
+    "homepage": "https://github.com/sachavanalfen/online-data-scraper-publication",
     "description": "",
-    "author": "",
+    "author": "Sacha van Alfen",
     "main": "app.js",
     "dependencies": {
         "nodemon": "latest",

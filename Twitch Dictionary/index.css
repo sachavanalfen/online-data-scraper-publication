@@ -1,0 +1,209 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,html {
+    height: 100%;
+    /* background-color: rgb(160, 62, 247); */
+    background-color: black;
+}
+/* SCROLLING PANE START */
+
+/* hide the scrollbars */
+
+font-face {
+  font-family: 'belweb';
+  src: url('BELWEB.TTF') format('truetype');
+}
+
+::-webkit-scrollbar {
+    display: none;
+
+}
+
+.scrolling-pane {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 20px;
+  height: 100%;
+  width: 16.7%;
+  margin-left: -4px;
+  overflow: scroll;
+    border:0.5px solid black;
+}
+.header h1{
+  text-align: center;
+  font-size: 40px;
+  font-family: sans-serif;
+  color: #fff;
+  opacity: .5;
+}
+/* SCROLLING PANE END */
+
+/* these are just the colors */
+.one {
+  background-color: white;
+}
+
+.two {
+  background-color: white;
+}
+
+.three {
+  background-color: white;
+}
+.four {
+  background-color: white;
+}
+
+.five {
+  background-color: white;
+}
+
+.six {
+  background-color: white;
+
+}
+
+/* this is dummy content */
+.dummy-content {
+  width: 80%;
+  height: auto;
+  margin: 10px auto;
+  background-color: #fff;
+  opacity: .5;
+  /* border:1px solid black; */
+  font-size: 40px;
+  font-family: sans-serif;
+  /* line-height: 300px; */
+  text-align: left;
+
+}
+.dummy-content h1{
+border-bottom: 1px dotted black;
+
+}
+h1{
+font-size: 40px;
+/* font-family: belweb; */
+font-family: sans-serif;
+text-align: left;
+/* border-bottom: 1px dotted black; */
+}
+h2{
+font-size: 14px;
+font-family: sans-serif;
+text-align: left;
+}
+h3{
+font-size: 12px;
+font-family: sans-serif;
+text-align: left;
+font-style: italic;
+font-weight: normal;
+
+}
+p{
+  font-size: 13px;
+  font-family: sans-serif;
+  text-align: left;
+}
+
+
+.flier {
+	pointer-events: none;
+
+}
+
+.flier > * {
+/* Adjust animation duration to change the element’s speed */
+        animation: fly 50s linear infinite;
+        pointer-events: none !important;
+	top: 0;
+	left: 0;
+	transform: translateX(-120%) translateY(-120%) rotateZ(0);
+	position: fixed;
+	animation-delay: 1s;
+	z-index: 999999;
+}
+.flier img{
+  width: auto;
+  height: 300px;
+}
+
+ /* Keyframe values control where the element will begin
+    and end its trajectory across the screen. Each rule
+    represents a path the element follows across the screen. */
+
+
+@keyframes fly {
+
+	98.001%, 0% {
+                display: block;
+		transform: translateX(-200%) translateY(100vh) rotateZ(0deg)
+	}
+
+	15% {
+		transform: translateX(100vw) translateY(-100%) rotateZ(180deg)
+	}
+
+	15.001%, 18% {
+		transform: translateX(100vw) translateY(-30%) rotateZ(0deg)
+	}
+
+	40% {
+		transform: translateX(-200%) translateY(3vh) rotateZ(-180deg)
+	}
+
+	40.001%, 43% {
+		transform: translateX(-200%) translateY(-100%) rotateZ(-180deg)
+	}
+
+	65% {
+		transform: translateX(100vw) translateY(50vh) rotateZ(0deg)
+	}
+
+	65.001%, 68% {
+		transform: translateX(20vw) translateY(-200%) rotateZ(180deg)
+	}
+
+	95% {
+		transform: translateX(10vw) translateY(100vh) rotateZ(0deg)
+	}
+}
+
+.card1 img{
+  bottom: 300px;
+  left: 300px;
+  position: absolute;
+  width: auto;
+  height: 300px;
+
+}
+.card2 img{
+  bottom: 300px;
+  left:600px;
+  position: absolute;
+  width: auto;
+  height: 310px;
+
+}
+.card3 img{
+  bottom: 300px;
+  left: 900px;
+  position: absolute;
+  width: auto;
+  height: 315px;
+
+}
+.mana img{
+  bottom: 50px;
+  left: 1100px;
+  position: absolute;
+  width: auto;
+  height: 30px;
+
+}
