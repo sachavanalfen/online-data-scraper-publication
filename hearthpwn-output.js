@@ -3,18 +3,7 @@
 
 
 
-So how was my experience in wild ladder today? Wasn't the usual soul crushing losses but losses to a bunch of really bad players including an aggro shaman with 2 Ancestral Spirit in his deck. Apparently none of the other powerful 1-2 drops in the game hold a candle to one of the most dead cards that doesn't synergize with the deck at all. I wish I could see what this guy's thought process was like adding that card into aggro shaman-if there was any at all.
-Oh how I just love losing to bad players that don't deserve the win just because the RNG gods like to fuck with me.
-
-
-
-,,,,,,,,,,,,,,
-
-
-
-
- Also, can't stand the players that feel the need to hover over every thing constantly, play with their hand and hover over every card I play like some ADHD child. 
-If you are that kind of person and are reading this you need to seriously calm the fuck down. Also if you keep hovering over the same card in your hand you are giving me information on what it could be. So do us both a favour and please stop.
+Tempo mage threatens lethalwith double fireball to my face. Now I am at 3, and I know a Frostbolt is incomming... I try to lethal mage down with my beast hunter, but left jaina at 2 health. I prepare for conceding... Azure Drake, maybe is a BM, but let's stay util I see the Frostbolt... Unstable Portal, definitively BM... WTF, mage conceded! She did'nt had it in the hand, nor drew it with Drake! I love when mages don't find their precious spell lethals. 
 
 
 
@@ -23,25 +12,9 @@ If you are that kind of person and are reading this you need to seriously calm t
 
 
 
-tfw going second against a wild face shaman who has perfect curves
-
-
-
-,,,,,,,,,,,,,
-
-
-
-
- I'm cool with Cube Warlock swarming the ladder. It's a tier-one deck, it happens.However, I think it's fucking bullshit that Cube has also infested Casual, where people choose to go after playing ladder to actually have fun with creative decks without running into the same net decks over and over. The fun is still there, as I don't lose anything if I lose games, but it's incredibly infuriating to play against 5 Cubelocks out of roughly every 10 games on ladder, then to have the same problem in casual.TAKE YOUR T1 DECKS TO RANKED, SCRUBS.
-
-
-
-,,,,,,,,,,,,,,
-
-
-
-
-I was playing a big spell control mage deck that I made against a Paladin. The guy was roping every single turn but I had all the right plays and counters. We get down towards the end and I have him with 0 cards in hand and a secret. I played Alex on myself as well as the death knight to give me 5 more health and healing. I start emoting him because his roping the whole game pissed me off. I attack with my 8/8 Alex and it was eye for an eye. I was still in a good position with a few water ele's on board as well as Alex and an ice block. I keep thanking him and saying hello as I clear his board and stretch out the game. I didn't even notice that he somehow played another secret. Instead of pinging, I attack his face with Alex. Eye for an eye again and it goes right through my ice block and kills me. I can't tell you how much that pissed me off.
+So there I was... playing paladin and my opponent had 1 hp left.
+My opponent had a full board of 7 minions and had lethal next turn, meanwhile I had no cards in my hand or field. My opponent ends there turn  and I draw a Knife Juggler I play the juggler then hero power to summon the 1/1 recruit, take a guess where that 1 random damage went :)
+ 
 
 
 
@@ -50,62 +23,17 @@ I was playing a big spell control mage deck that I made against a Paladin. The g
 
 
 
-
-Quote from Squib >>
-
-I'm cool with Cube Warlock swarming the ladder. It's a tier-one deck, it happens.However, I think it's fucking bullshit that Cube has also infested Casual, where people choose to go after playing ladder to actually have fun with creative decks without running into the same net decks over and over. The fun is still there, as I don't lose anything if I lose games, but it's incredibly infuriating to play against 5 Cubelocks out of roughly every 10 games on ladder, then to have the same problem in casual.TAKE YOUR T1 DECKS TO RANKED, SCRUBS.
-
-
- Agreed, I wonder how those kinds of people sleep at night or look at themselves in the mirror. You can't be so inconsiderate and loathing of the Ladder to resort to something like that..have some fucking decency It's like somebody invited the biggest asshole to a party
+I was experimenting with a highlander reno priest right after loe came out and faced off against an early stone mage.  I didn't see it coming and he ended up clearing my board with stone/flamestrike which summoned him a war golem.  I had basically full health but only a few cards left In my deck and 2 in my hand, Reno and...wait for it...auchenai soulpriest.  Hrrrm, let's see what this does?  Most epic suicide ever.  Immediately friended by opponent.  I don't think I've ever laughed harder in Hearthstone.
 
 
 
-,,,,,,,,,,,,,
+,,,,,,,,,,,
 
 
 
 
-
-Quote from trickster >>
-
-I was playing a big spell control mage deck that I made against a Paladin. The guy was roping every single turn but I had all the right plays and counters. We get down towards the end and I have him with 0 cards in hand and a secret. I played Alex on myself as well as the death knight to give me 5 more health and healing. I start emoting him because his roping the whole game pissed me off. I attack with my 8/8 Alex and it was eye for an eye. I was still in a good position with a few water ele's on board as well as Alex and an ice block. I keep thanking him and saying hello as I clear his board and stretch out the game. I didn't even notice that he somehow played another secret. Instead of pinging, I attack his face with Alex. Eye for an eye again and it goes right through my ice block and kills me. I can't tell you how much that pissed me off.
-
-
- Cockiness is an insidious killer. To be frank you kinda deserved that if you emote like a madman. The pally probably knew he was gonna lose and noticed you getting triggered so he ropes to get you more riled up and lose focus and possibly make a mistake off that...and it worked. fucking with players composure is a viable tactic in any game with a competitive format and I'm surprised most pros haven't realized yet.
-
-
-
-,,,,,,,,,,,,,
-
- 
-
-
-I feel your pain, bro. I'm playing big spell mage as well and know how hard it is to win consistently with this deck (especially with so many murlocadins and secret infidels). But as for your story, you simply misplayed, happens to everyone. Paladins often choose eye for an eye over other secrets specifically to counter our ice block. The good side is that next time you will sure avoid this mistake.
-
-Quote from trickster >>
-
-I was playing a big spell control mage deck that I made against a Paladin. The guy was roping every single turn but I had all the right plays and counters. We get down towards the end and I have him with 0 cards in hand and a secret. I played Alex on myself as well as the death knight to give me 5 more health and healing. I start emoting him because his roping the whole game pissed me off. I attack with my 8/8 Alex and it was eye for an eye. I was still in a good position with a few water ele's on board as well as Alex and an ice block. I keep thanking him and saying hello as I clear his board and stretch out the game. I didn't even notice that he somehow played another secret. Instead of pinging, I attack his face with Alex. Eye for an eye again and it goes right through my ice block and kills me. I can't tell you how much that pissed me off.
-
-
- 
-
-
-
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-
-
-
-
-I can't remember the last time I won a game.
-
-
-
-,,,,,,,,,,,,,
-
-
-
-
-Wow all those ex-raza priests now bandwagoning cubelock , you guys are so great and force people to play cancer mage, fucking scum
+I made a funky Rogue deck for this week's Brawl as I had a quest. I don't play Rogue, but managed to make an interesting and effective deck. My last win was against a Golden Warlock who refused to give in. The game took about 25 minutes and I DC'd twice due to the timer running out as I was picking my Christmas reward. 
+The board kept getting reset and it was slow, slightly stressful but a lot of fun. Managed to steal the win at the end by playing the Eredar Lord himself. 
 
 
 
@@ -114,70 +42,7 @@ Wow all those ex-raza priests now bandwagoning cubelock , you guys are so great 
 
 
 
-with these resetting threads how will people know how truly shit hearthstone is
-
-
-
-,,,,,,,,,,
-
-
-
-
-Why are people playing cubelock and secret mage in CASUAL? That's the place I go to get far away from that bs.. Their decks don't even have any innovation and are copied card by card from the top lists.
-When do we get a real casual mode with no rewards? I really want to play meme jank but getting matched vs top tier meta decks is seriously tilting.
-Edited out unecessary profanities.
-
-
-
-,,,,,,,,,,,,,,
-
-
-
-
-Let's make turns 1 and 2 quicker! Stops ropers, great idea!Until Hearthstone decides to fucking freeze up and you miss turns 1 AND 2 against an aggro deck.
-
-
-
-,,,,,,,,,,,,
-
-
-
-
-Hearthstone!
-1% fun.
-99% mind numbing pain. 
-100% self hate for letting Blizzard tease you with a good time. 
-IN THE END YOU WILL GET WAY MORE SATISFACTION PUTTING QUARTERS IN AN EMPTY GUM BALL MACHINE THAN YOU EVER WILL PLAYING A BLIZZARD GAME. 
-
-
-
-,,,,,,,,,,
-
-
-
-
-
-Quote from Darksun200 >>
-
-
-Quote from Squib >>
-
-I'm cool with Cube Warlock swarming the ladder. It's a tier-one deck, it happens.However, I think it's fucking bullshit that Cube has also infested Casual, where people choose to go after playing ladder to actually have fun with creative decks without running into the same net decks over and over. The fun is still there, as I don't lose anything if I lose games, but it's incredibly infuriating to play against 5 Cubelocks out of roughly every 10 games on ladder, then to have the same problem in casual.TAKE YOUR T1 DECKS TO RANKED, SCRUBS.
-
-
- Agreed, I wonder how those kinds of people sleep at night or look at themselves in the mirror. You can't be so inconsiderate and loathing of the Ladder to resort to something like that..have some fucking decency It's like somebody invited the biggest asshole to a party
-
-
- It's a matter of mutual respect. It more than likely began with a few select assholes that have compensatory power/control issues and need to dominate people some way or another even if it's for no gain. A lot of people probably didn't start playing Cube in casual until they started facing it over and over, then just said fuck it just to end their own misery. I'm just not sure why this happened all of the sudden. It's not like I had a problem running into Raza Priest or Tempo Rogue in casual pre-nerf... It's whatever though. I don't have a problem playing ranked all of the time.
-
-
-
-,,,,,,,,,,,,,,
-
-
-
-
-Why is it that when I'm playing arena, the worse my opponent plays, the better his luck is?
+I was Playing Priest against Paliden and got a lay on hands from thoughtsteal from there i got a soul priest and velen on the table so that for 8 mana i got to deal 16 damage and draw 3 was very absurd
 
 
 
@@ -186,26 +51,16 @@ Why is it that when I'm playing arena, the worse my opponent plays, the better h
 
 
 
-
-Quote from Squib>>
-
- 
-
-
- It's a matter of mutual respect. It more than likely began with a few select assholes that have compensatory power/control issues and need to dominate people some way or another even if it's for no gain. A lot of people probably didn't start playing Cube in casual until they started facing it over and over, then just said fuck it just to end their own misery. I'm just not sure why this happened all of the sudden. It's not like I had a problem running into Raza Priest or Tempo Rogue in casual pre-nerf... It's whatever though. I don't have a problem playing ranked all of the time.
-
-
-You might as well uninstall right now, HS attracts OCD gambling addicts.
-Blizzard wont improve the game when they make millions off invalids who would gladly play the same 30 cards 24/7 for 100 years. 
+Playing against a Secret Paladin and he drops both of his Blessing of Kings on Dr. Boom and proceeds to swing at my face for 15 damage. Right into my Vaporize. Went on to win the game by a rather large margin. Happy Feast of Winter Veil!
 
 
 
-,,,,,,,,,,
+,,,,,,,,,,,,,
 
 
 
 
-uright. It's like I said, though. I'm cool w playing ranked all of the time. xD
+Played mech mage a couple of days ago, and had 3 minions on the board, 1 mana vyrm and two mechs. I then played my gorillabot and discovered mimiron's head. I thought... well, why not. So I played Mimiron's Head, the opponent then kills the mana vyrm. I got V-07-TR-0N, and mega windfuried his face. Best day of my life.
 
 
 
@@ -214,12 +69,119 @@ uright. It's like I said, though. I'm cool w playing ranked all of the time. xD
 
 
 
+Was playing a Warrior deck with Elise Starseeker in it against another Warrior. He had a huge armor lead and we were in fatigue. I had played the monkey and so I had a couple decent legendaries controlling the board. He plays Deathwing as his last card. I've got nothing to stop that...except another Elise that the previous one had given me! Played her, reset my fatigue, and got an Acidmaw so I could trade a worthless legendary into that annoying Deathwing. Awwwww yisssss.
 
-they make millions off invalids who would gladly play the same 30 cards 24/7 for 100 years. 
 
-I think you meant invalids who would gladly pay 100$ for 30% of an expansion, every expansion. Now that's a disability.
- 
- 
+
+,,,,,,,,,,,,,
+
+
+
+
+I was playing Reno Warrior against a Control Priest (ofc a tough matchup after the expansion). My deck has Elise Starseeker in it. I played her on turn 4 got the map inside and the priest thoughtstole it!!! Not only that after playing it, his draw from the map was the Golden Monkey !!! That was his mistake. I easily won since I had so much removal and he only had (I belive) crappy legendaries. I was lucky enough because I don't think I'd been able to win that game under normal circumstances.
+
+
+
+,,,,,,,,,,,,,
+
+
+
+
+I was playing fatigue warrior against some kind of midrange priest, and he curved out nicely while I didn't draw any weapons. I eventually somewhat stabilize but then he drops the sneeds he got from his museum curator. (I know this is sounding like the salt thread, let me get to the good part!) I'm then like, screw it, and cruel task executed it. I am greeted by none other than majordomo executus! I immediately introduce him to my bgh, and next turn I show his buddy ragnaros my bash and gorehowl. :D
+
+
+
+,,,,,,,,,,,
+
+
+
+
+I once played against a Paladin with no Cancerous Challenger in his deck. I won.
+
+
+
+,,,,,,,,,,,,
+
+
+
+
+I just had an incredible game against a golden warlock in casual.
+He seems to be trying out a discard warlock of some kind. I'm playing my beast Druid. the game is REALLY back and forth, and i finally get control. 
+He drops a Voidcaller when he is at 5 health, and then casts Demonheart on it. My board is a Mounted Raptor, a 4/1 Tomb Spider, and a 4/1 Wildwalker and i have 3 health and 1 armour. so i can break the 8 health voidcaller no problem and win. He taps down to 3 and i immediately think "he's just lost the game for himself"
+He topdecks a Soulfire from his tap and wins.
+It was so close i started clapping.
+I wish i added him after the game to thank him.
+
+
+
+,,,,,,,,,,,,
+
+
+
+
+Got down a handlock with raptor rogue after surviving both molten giants, both healbots both shadowflames, a twilight drake and both belchers. Reaaally deserved win, despite I was really lucky to be able to keep pressure.
+
+
+
+,,,,,,,,,,,,
+
+
+
+
+Oh, man. I had a pretty hearth-pumping game last night. I can be so fucking dumb sometimes...
+So I was playing against Hunter with Warlock at rank 5. We both had something like 10 hp left. I had Mal'Ganis on empty board. He played Savannah Highmane. I had Power Overwhelming and Defender of Argus in hand. I guess I was focusing on music or something didn't think too much. Thought to myself that's certainly lethal and continued to buff my Mal'Ganis and attack. Then sudden realization it was one of lethal, but not with Defender of Argus which I didn't play. I was hitting my head to the table pretty hard. I was certain that I was dead the next turn.
+I held back tears and continued to tap. Got Knife Juggler out of my deck. I still had a chance. It all came down to 50/50 me losing or winning. Took a brief moment to pray for RNGesus to give me power to win. Then few clicks and BOOM. Knife Juggler hits to the face and I was declared a winner. Tears where rolling on my cheeks  and my hearth was beating like freaking alarm clock. What a game. Sometimes dumb and sometimes lucky. 
+
+
+
+,,,,,,,,,,,,,
+
+
+
+
+There's just nothing better than beating an opponent even after they Reno. Caught a Renolock this morning who Farseer'ed and Reno'd, and one yesterday who got Healbot, Refreshment Vendor, and Reno during the course of the game.
+
+
+
+,,,,,,,,,,,,,
+
+
+
+
+Just drafted a Paladin arena deck, picked 5 secrets and got a Mysterious Challenger on the last card.  Top decked it in my first game on turn 6.  I can't imagine the salt of the other player.
+
+
+
+,,,,,,,,,,,
+
+
+
+
+Entomb Priest mirror in casual (I'm trying to learn the deck) becomes the Battle of Rhonin:
+He gets a (golden) Rhonin from a (golden) Confessor. It looks nice.
+I kill everything else and entomb the Rhonin. I draw a little extra even though this means I'll be first in fatigue. Find the Rhonin. Play it. Opponent entombs it.
+I'm ahead on board but also going into fatigue. Then he plays Rhonin in an effort to get caught up on board. I entomb it.
+Fortunately, either he didn't draw his second or was only playing one, so I was able to cast Rhonin and then kill him with it next turn. I could have Lightbombed and then killed him with the missiles instead, but that would have been rude.
+
+
+
+,,,,,,,,,,,,,
+
+
+
+
+I like playing rogue. And it's great against palladins, which infest the meta. So I can get to rank five pretty easily. The problem is tempo/mech mages. Rogues don't have many minions in their deck. So the ones there are all pretty valuable. Like shredders. Mirror images plus lots of removal make mages a pain. But just now I tried out a cycle oil rogue. Just beat 3 out of four tempo mages and fiveish palladins sfrom rank six to four. I may have found THE deck for this meta. I've gotten legend with oil rogue b4, maybe again this season.
+
+
+
+,,,,,,,,,,,,
+
+
+
+
+Trying out Reno/Elise Fatigue Warrior in ladder, as fate would have it 3rd match is versus a fatigue Reno Mage. I have a huge amount of armor and full health even after his Alekstrasza. We're down to our last few cards, I pull Golden Monkey with around 5 cards left. I also got gang up from Sarad and used it on his Ethreal Conjurer to try to fill my hand with spells for when golden monkey comes (because let's face it, warrior spells are kind of crap in a vaccum).
+Anyways, long story short, he is in fatigue with Ice Block up, he's knocked my armor down and has next turn lethal on me because of a Molten Giant that I had no answer to for 3 turns. He has 13 HP and I have a 4/2 Gorehowl up (I used upgrade on it 2 times from those Ethreal Conjurers I ganged up and had already swung at him once) I draw my last card which is King Crush LOL. I swing weapon for 4, and charge for 8, fatigue kills him next turn bypassing Ice block.
+Never lucky except in this match ;)
 
 
 
@@ -228,9 +190,8 @@ I think you meant invalids who would gladly pay 100$ for 30% of an expansion, e
 
 
 
-I'm so salty with the current meta! The nerfs made decks which were strong pre-nerf even stronger. Yes, I'm talking about murloc paladin and secret mage. I went from rank 6 **** to 8 (zero stars) by playing only against these two decks (not exaggerating) until I finally encountered another control mage and won. I even miss cubelocks because for my deck (control mage) they are kinda favorable matchup. 
-Raza and Patches were cancer, yes, but so many decks are now gone because of the nerf and the current "meta" looks just dumb and kinda narrow.
+I just faced a shaman whose turn one was Tunnel Trogg + Coin + Leper Gnome. I was playing RenoLock, and mr. Jackson kindly healed me for 28 on turn 8. My opponent conceded. :D
 
 
 
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,

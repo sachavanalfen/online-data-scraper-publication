@@ -69,7 +69,7 @@ app.get('/imdb', function(req, res){
 app.get('/hearthpwn', function(req, res){
 
   // storing URL
-  var url = 'https://www.hearthpwn.com/forums/hearthstone-general/general-discussion/212005-group-therapy-need-to-blow-off-steam-mega-salty?page=5';
+  var url = 'https://www.hearthpwn.com/forums/hearthstone-general/general-discussion/85137-the-pepper-thread-share-your-good-vibes?page=5';
 
   // making HTTP request
   request(url, function(error, response, html){
