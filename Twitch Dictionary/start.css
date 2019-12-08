@@ -4,17 +4,17 @@
   margin: 0;
   box-sizing: border-box;
 }
-@font-face {
-font-family: "belweb";
-src: url("BELWEB.TTF") format("TTF"),
 
-}
 
 body,html {
     height: 100%;
     /* background-color: rgb(160, 62, 247); */
-    background-color: black;
+
+
+
 }
+
+
 body {
   width: 100%;
   height: 100vh;
@@ -22,13 +22,16 @@ body {
   justify-content: center;
   align-items: center;
   perspective: 1200px;
-  background: #ccc;
+  /* background: #ccc; */
+  background-color: rgb(160, 62, 247);
   text-decoration: none;
 }
+
 
 .book {
   transform-style: preserve-3d;
   position: relative;
+  left: 600px;
   height: 300px;
   cursor: pointer;
   backface-visibility: visible;
@@ -38,6 +41,27 @@ body {
   text-decoration: none;
 
 }
+
+.book h2 {
+  font-size: 8px;
+  font-family: sans-serif;
+  text-align: left;
+  text-decoration: none;
+}
+.book h3 {
+  font-size: 8px;
+  font-family: sans-serif;
+  text-align: left;
+  text-decoration: none;
+}
+.book p {
+  font-size: 8px;
+  font-family: sans-serif;
+  text-align: left;
+  text-decoration: none;
+}
+
+
 
 .front, .back, .page1, .page2, .page3, .page4, .page5, .page6 {
   transform-style: preserve-3d;
@@ -164,4 +188,44 @@ transform: scale(-1, 1);
 
 a{
   text-decoration: none;
+}
+
+@font-face {
+  font-family: 'belweb';
+  src: url('BELWEB.TTF') format('truetype');
+}
+
+.header{
+  position: absolute;
+  text-align:center;
+  top:5px;
+  left: auto;
+margin-top: 0px;
+  font-size: 60px;
+  color: #fff;
+  font-family: belweb;
+}
+
+
+.random-pane {
+  vertical-align: top;
+  height: 100%;
+  width: 100%;
+  /* background-color: blue; */
+  /* z-index: 1000; */
+}
+
+.grid-item {
+  position: absolute;
+  padding: 5px;
+  margin: 5px;
+  width: 200px;
+  height: auto;
+  border: 1px solid black;
+  background-color: rgb(160, 62, 247);
+  display: inline-block;
+  z-index: 1000;
+  color: white;
+  font-family: belweb;
+  font-size: 15px;
 }

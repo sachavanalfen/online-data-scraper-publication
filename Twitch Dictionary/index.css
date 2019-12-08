@@ -9,12 +9,18 @@ body,html {
     height: 100%;
     /* background-color: rgb(160, 62, 247); */
     background-color: black;
+
+    cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/836/hearthstone-cursor.png) 10 2, auto;
+	overflow: hidden;
+	&:active {
+		cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/836/hearthstone-click.png) 10 2, auto;
+	}
 }
 /* SCROLLING PANE START */
 
 /* hide the scrollbars */
 
-font-face {
+@font-face {
   font-family: 'belweb';
   src: url('BELWEB.TTF') format('truetype');
 }
@@ -32,14 +38,20 @@ font-face {
   width: 16.7%;
   margin-left: -4px;
   overflow: scroll;
-    border:0.5px solid black;
+  border:0.5px solid black;
+
+    /* border: 1px solid green;
+    -webkit-box-shadow: 0px 0px 20px  green;
+       -moz-box-shadow: 0px 0px 20px  green;
+            box-shadow: 0px 0px 20px  green; */
 }
 .header h1{
   text-align: center;
-  font-size: 40px;
+  font-size: 60px;
   font-family: sans-serif;
   color: #fff;
-  opacity: .5;
+  font-family: belweb;
+  /* opacity: .5; */
 }
 /* SCROLLING PANE END */
 
@@ -73,30 +85,28 @@ font-face {
   width: 80%;
   height: auto;
   margin: 10px auto;
-  background-color: #fff;
-  opacity: .5;
+  /* background-color: #fff; */
   /* border:1px solid black; */
   font-size: 40px;
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
+  font-family: belweb;
   /* line-height: 300px; */
   text-align: left;
-
-}
-.dummy-content h1{
-border-bottom: 1px dotted black;
+    opacity: .5;
 
 }
 h1{
 font-size: 40px;
-/* font-family: belweb; */
-font-family: sans-serif;
+font-family: belweb;
 text-align: left;
-/* border-bottom: 1px dotted black; */
+
 }
 h2{
 font-size: 14px;
 font-family: sans-serif;
 text-align: left;
+cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/836/hearthstone-grab.png) 10 2, auto;
+
 }
 h3{
 font-size: 12px;
@@ -110,69 +120,7 @@ p{
   font-size: 13px;
   font-family: sans-serif;
   text-align: left;
-}
 
-
-.flier {
-	pointer-events: none;
-
-}
-
-.flier > * {
-/* Adjust animation duration to change the element’s speed */
-        animation: fly 50s linear infinite;
-        pointer-events: none !important;
-	top: 0;
-	left: 0;
-	transform: translateX(-120%) translateY(-120%) rotateZ(0);
-	position: fixed;
-	animation-delay: 1s;
-	z-index: 999999;
-}
-.flier img{
-  width: auto;
-  height: 300px;
-}
-
- /* Keyframe values control where the element will begin
-    and end its trajectory across the screen. Each rule
-    represents a path the element follows across the screen. */
-
-
-@keyframes fly {
-
-	98.001%, 0% {
-                display: block;
-		transform: translateX(-200%) translateY(100vh) rotateZ(0deg)
-	}
-
-	15% {
-		transform: translateX(100vw) translateY(-100%) rotateZ(180deg)
-	}
-
-	15.001%, 18% {
-		transform: translateX(100vw) translateY(-30%) rotateZ(0deg)
-	}
-
-	40% {
-		transform: translateX(-200%) translateY(3vh) rotateZ(-180deg)
-	}
-
-	40.001%, 43% {
-		transform: translateX(-200%) translateY(-100%) rotateZ(-180deg)
-	}
-
-	65% {
-		transform: translateX(100vw) translateY(50vh) rotateZ(0deg)
-	}
-
-	65.001%, 68% {
-		transform: translateX(20vw) translateY(-200%) rotateZ(180deg)
-	}
-
-	95% {
-		transform: translateX(10vw) translateY(100vh) rotateZ(0deg)
-	}
 }
 
 .card1 img{
@@ -181,6 +129,7 @@ p{
   position: absolute;
   width: auto;
   height: 300px;
+ cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/836/hearthstone-grab.png) 10 2, auto;
 
 }
 .card2 img{
@@ -189,7 +138,7 @@ p{
   position: absolute;
   width: auto;
   height: 310px;
-
+cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/836/hearthstone-grab.png) 10 2, auto;
 }
 .card3 img{
   bottom: 300px;
@@ -197,65 +146,135 @@ p{
   position: absolute;
   width: auto;
   height: 315px;
-
-}
-.mana img{
-  bottom: 50px;
-  left: 1100px;
-  position: absolute;
-  width: auto;
-  height: 30px;
+  cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/836/hearthstone-grab.png) 10 2, auto;
 }
 
-
-
-
-
-.button{
-  border: 0px;
-  background-color: white;
-  text-decoration: none;
-  padding: none;
-  margin-left: -5px;
-  margin-top: -5px;
+.modalWrapper {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.25);
+    z-index: 9999999;
 }
 
-/* The Modal (background) */
+
 .modal {
-  display: none; /* Hidden by default */
-  /* position: fixed;  */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
+    display: block;
+    margin: auto auto;
+    padding: 40px;
+    width: 50%;
+    height: auto;
+    background-color: white;
+    border: 1px black;
+    z-index: 999;
+    font-size: 24px;
+    line-height: 1.25em;
+
+    /* font-family: Georgia, serif;
+    font-style: italic; */
+
+    font-family: belweb;
+    max-height: 90%;
+    overflow: scroll;
+}
+.modal img{
+  display: block;
+  margin: auto auto;
+  padding: 40px;
+  max-width: 80%;
+  max-height: 60vh;
+  box-sizing: content-box;
 }
 
-/* Modal Content/Box */
-.modal-content {
-  background-color: #fefefe;
-  margin: 15% auto; /* 15% from the top and centered */
-  padding: 15px;
-  padding-top: 20px;
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+.my-legend .legend-title {
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 90%;
+    }
+  .my-legend .legend-scale ul {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    float: left;
+    list-style: none;
+    }
+  .my-legend .legend-scale ul li {
+    font-size: 13px;
+    font-family: belweb;
+    list-style: none;
+    margin-left: 0;
+    line-height: 18px;
+    margin-bottom: 20px;
+    }
+  .my-legend ul.legend-labels li span {
+    display: block;
+    float: left;
+    height: 30px;
+    width: 60px;
+    margin-right: 5px;
+    margin-left: 20px;
+    }
+  .my-legend .legend-source {
+    font-size: 20px;
+    color: black;
+    opacity: .5;
+    clear: both;
+    }
+  .my-legend a {
+    color: #777;
+    }
+
+
+
+.random-pane {
+  vertical-align: top;
+  height: 100%;
+  width: 100%;
+  background-color: blue;
+  z-index: 1000;
 }
 
-/* The Close Button */
-.close {
-  position: fixed;
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-  top: 180px;
-  left: 166px;
+.grid-item {
+  position: absolute;
+  padding: 5px;
+  margin: 5px;
+  width: 200px;
+  height: auto;
+  border: 1px solid black;
+  background-color: rgb(160, 62, 247);
+  display: inline-block;
+  z-index: 1000;
+  color: white;
+  font-family: belweb;
+  font-size: 15px;
 }
 
-.close:hover,
-.close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
+#ticker-container {
+    background-color: black;
+    height:35px;
+}
+
+#ticker-text {
+    top:0px;
+    font-family: belweb;
+    font-size: 20px;
+    color: white;
+/*    border:1px solid white;*/
+}
+
+#ticker-container2 {
+    background-color: black;
+    height:35px;
+}
+
+#ticker-text2 {
+    top:0px;
+    font-family: belweb;
+    font-size: 20px;
+    color: white;
+/*    border:1px solid white;*/
 }
