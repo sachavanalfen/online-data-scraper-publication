@@ -74,8 +74,8 @@ body {
 }
 
 .front, .back {
-  /* background: rgb(56, 38, 15); */
-  background: yellow;
+  background: rgb(56, 38, 15);
+  /* background: yellow; */
 }
 
 .front, .page1, .page3, .page5 {
